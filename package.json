@@ -1,7 +1,7 @@
 {
   "name": "grunt-dump-dir",
   "description": "Grunt task to dump a dictionary (all files and their content) into a JSON object",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "homepage": "https://github.com/bpampuch/grunt-dump-dir",
   "author": {
     "name": "Bartek Pampuch",
@@ -14,6 +14,7 @@
   "bugs": {
     "url": "https://github.com/bpampuch/grunt-dump-dir/issues"
   },
+  "license": "MIT",
   "licenses": [
     {
       "type": "MIT",
@@ -21,19 +22,19 @@
     }
   ],
   "engines": {
-    "node": ">= 0.8.0"
+    "node": ">=0.10.0"
   },
   "scripts": {
     "test": "grunt test"
   },
   "devDependencies": {
-    "grunt-contrib-jshint": "~0.6.0",
-    "grunt-contrib-clean": "~0.4.0",
-    "grunt-contrib-nodeunit": "~0.2.0",
-    "grunt": "~0.4.2"
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-nodeunit": "^1.0.0",
+    "grunt": "^1.0.1"
   },
   "peerDependencies": {
-    "grunt": "~0.4.2"
+    "grunt": "^1.0.1"
   },
   "keywords": [
     "gruntplugin"
