@@ -31,6 +31,8 @@
     "grunt": ">=0.4.0"
   },
   "keywords": [
-    "gruntplugin"
+    "gruntplugin",
+    "JSON",
+    "browserify"
   ]
 }
